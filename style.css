@@ -1,14 +1,25 @@
 
 body{
     display: flex;
-    align-items: center;
+    width: 1728px;
+    height: 1117px;
 }
+
 .head_container{
     margin-top: 160px;
-    margin-left: 745px;
-}
-.head__h1{
-    height: 135px;
+    margin-left: 436px;
     width: 856px;
+    height: 222px;
+    
+}
+.h1__head{
+    height: 46px;
+    width: 238px;
     font-size: 36px;
+}
+.quiz_container{
+    width: 700px;
+    height: 445px;
+    margin-top: 470px;
+    margin-left: 514px;
 }
