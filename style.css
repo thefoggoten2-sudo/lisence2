@@ -1,0 +1,117 @@
+body {
+  background: url(img/QuizwithBg2.png) 0 0 / cover no-repeat;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.head_container {
+  font-family: "Quicksand", "Times New Roman", Times, serif;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  margin: auto auto 0;
+  width: 856px;
+  height: 222px;
+}
+.h1__head {
+  font-size: 36px;
+  height: 46px;
+}
+.head__p1 {
+  font-size: 36px;
+  text-align: center;
+}
+.quiz_container {
+  width: 700px;
+  margin-top: 44px;
+  height: 445px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Label__span {
+  font-family: "Quicksand", "Times New Roman", Times, serif;
+  font-weight: 600;
+  color: #ff475d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  padding: 5px;
+  background-color: #ffecdb;
+  border: 2px solid #ffecdb;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+.quiz__list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.Quiz__button {
+  cursor: pointer;
+  padding: 25px 40px;
+  background-color: #ffffff;
+  border: 2px solid #ffffff;
+  align-items: center;
+  display: flex;
+  gap: 43px;
+  height: 100px;
+  width: 700px;
+  border-radius: 10px;
+}
+.Quiz__button:hover {
+  transition: 0.2s;
+  background-color: #fe909d;
+  color: #ffffff;
+  .Label__span {
+    background-color: #ff475d;
+    color: #ffffff;
+    border-color: #fe909d;
+  }
+}
+.Text__span {
+  font-family: "Quicksand", "Times New Roman", Times, serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+.Next_button {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 28px;
+  height: 75px;
+  width: 150px;
+  border-color: #fe909d;
+  border-radius: 10px;
+  background-color: #fe909d;
+}
+.Next_text {
+  color: #ff475d;
+  font-family: "Quicksand", "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-size: 36px;
+}
+.Next_button:hover {
+  transition: 0.2s;
+  background-color: #ff475d;
+  border-color: #ff475d;
+  .Next_text {
+    color: #fe909d;
+  }
+}
+.hr {
+  margin-top: 88px;
+  border-color: black;
+  width: 204px;
+  height: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
