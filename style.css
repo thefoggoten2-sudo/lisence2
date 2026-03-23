@@ -26,7 +26,7 @@ body {
 }
 .quiz_container {
   width: 700px;
-  margin-top: 88px;
+  margin-top: 44px;
   height: 445px;
   margin-left: auto;
   margin-right: auto;
@@ -106,4 +106,12 @@ body {
   .Next_text {
     color: #fe909d;
   }
+}
+.hr {
+  margin-top: 66px;
+  border-color: black;
+  width: 204px;
+  height: 0px;
+  margin-left: auto;
+  margin-right: auto;
 }
