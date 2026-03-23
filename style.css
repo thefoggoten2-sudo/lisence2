@@ -12,7 +12,7 @@ body {
   align-items: center;
   flex-direction: column;
   display: flex;
-  margin: 160px auto 0;
+  margin: auto auto 0;
   width: 856px;
   height: 222px;
 }
@@ -78,4 +78,32 @@ body {
   font-family: "Quicksand", "Times New Roman", Times, serif;
   font-size: 24px;
   font-weight: 500;
+}
+.Next_button {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 28px;
+  height: 75px;
+  width: 150px;
+  border-color: #fe909d;
+  border-radius: 10px;
+  background-color: #fe909d;
+}
+.Next_text {
+  color: #ff475d;
+  font-family: "Quicksand", "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-size: 36px;
+}
+.Next_button:hover {
+  transition: 0.2s;
+  background-color: #ff475d;
+  border-color: #ff475d;
+  .Next_text {
+    color: #fe909d;
+  }
 }
